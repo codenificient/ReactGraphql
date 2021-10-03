@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "name": "Year One",
+        "genre": "Adventure|Comedy"
+    },
+    {
+        "id": 2,
+        "name": "Running With Scissors",
+        "genre": "Comedy|Drama"
+    },
+    {
+        "id": 3,
+        "name": "Two Arabian Knights",
+        "genre": "Adventure|Comedy|Romance"
+    },
+    {
+        "id": 4,
+        "name": "Odgrobadogroba",
+        "genre": "Comedy|Drama"
+    },
+    {
+        "id": 5,
+        "name": "Paper Moon",
+        "genre": "Comedy|Crime|Drama"
+    },
+    {
+        "id": 6,
+        "name": "Dragon Ball: Sleeping Princess in Devil's Castle (Doragon bôru: Majinjô no nemuri hime)",
+        "genre": "Action|Adventure|Animation|Children"
+    },
+    {
+        "id": 7,
+        "name": "Love and Death",
+        "genre": "Comedy"
+    },
+    {
+        "id": 8,
+        "name": "Devil's Playground, The",
+        "genre": "Drama"
+    },
+    {
+        "id": 9,
+        "name": "Transylvania 6-5000",
+        "genre": "Comedy|Horror"
+    },
+    {
+        "id": 10,
+        "name": "Paperboy, The",
+        "genre": "Thriller"
+    }
+]
