@@ -1,0 +1,108 @@
+body {
+	margin: 0;
+	font-family: Poppins, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	z-index: 2;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+#main {
+	padding: 0;
+	box-sizing: border-box;
+	width: 60%;
+	height: 100%;
+	z-index: 3;
+}
+
+#main h1 {
+	color: #444;
+	text-align: center;
+}
+
+#book-list {
+	padding: 2%;
+	width: 100%;
+}
+
+#book-list li {
+	list-style: none;
+	display: inline-block;
+	margin: 12px;
+	padding: 10px;
+	border-radius: 4px;
+	border: 1px solid #880e4f;
+	cursor: pointer;
+	box-shadow: 7px 8px 23px rgba(0, 0, 0, .3);
+	color: #880e4f;
+}
+
+form {
+	background-color: #eee;
+	padding: 30px;
+	position: fixed;
+	border-radius: 5px;
+	left: 10%;
+	bottom: 10%;
+	width: 430px;
+}
+
+form .field {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 10px;
+}
+
+form label {
+	text-align: left;
+	padding: 6px;
+	/* width: 100px; */
+}
+
+form select,
+form input {
+	margin: 4px;
+	padding: 6px;
+	box-sizing: border-box;
+	width: 313px;
+	border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+form button {
+	color: #eee;
+	font-size: 3em;
+	background: #ad1457;
+	border: 0;
+	padding: 0 10px;
+	border-radius: 50%;
+	cursor: pointer;
+	position: absolute;
+	bottom: -45px;
+	right: 40px;
+}
+
+#book-details {
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 40%;
+	height: 100%;
+	background: #db2c7552;
+	padding: 2%;
+	overflow: auto;
+	box-shadow: -2px -3px 5px rgba(0, 0, 0, .3);
+	box-sizing: border-box;
+	color: #ad1457;
+	font-weight: 500;
+	font-size: 2rem;
+	z-index: 3;
+}
+
+.other-books {
+	list-style: none;
+	font-weight: 600;
+}

@@ -1,0 +1,7 @@
+.App {
+	width: 98vw;
+	height: 98vh;
+	display: flexbox;
+	margin: auto;
+    z-index: 10;
+}
